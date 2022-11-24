@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/mnt/c/Users/Mohamed/Desktop/Programmering/12/assignment-12-8ohamed/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/Mohamed/Desktop/Programmering/12/assignment-12-8ohamed/include -g -std=gnu++14 -o CMakeFiles/mylib.dir/src/duration.cpp.o -c /mnt/c/Users/Mohamed/Desktop/Programmering/12/assignment-12-8ohamed/src/duration.cpp",
+  "file": "/mnt/c/Users/Mohamed/Desktop/Programmering/12/assignment-12-8ohamed/src/duration.cpp"
+},
+{
+  "directory": "/mnt/c/Users/Mohamed/Desktop/Programmering/12/assignment-12-8ohamed/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/Mohamed/Desktop/Programmering/12/assignment-12-8ohamed/include -g -g -O0 -std=gnu++14 -o CMakeFiles/main.dir/src/main.cpp.o -c /mnt/c/Users/Mohamed/Desktop/Programmering/12/assignment-12-8ohamed/src/main.cpp",
+  "file": "/mnt/c/Users/Mohamed/Desktop/Programmering/12/assignment-12-8ohamed/src/main.cpp"
+},
+{
+  "directory": "/mnt/c/Users/Mohamed/Desktop/Programmering/12/assignment-12-8ohamed/build/tests",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/Mohamed/Desktop/Programmering/12/assignment-12-8ohamed/tests/include -g -std=gnu++14 -o CMakeFiles/tests.dir/src/tests.cpp.o -c /mnt/c/Users/Mohamed/Desktop/Programmering/12/assignment-12-8ohamed/tests/src/tests.cpp",
+  "file": "/mnt/c/Users/Mohamed/Desktop/Programmering/12/assignment-12-8ohamed/tests/src/tests.cpp"
+}
+]
