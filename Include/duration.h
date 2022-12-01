@@ -33,7 +33,18 @@ bool tick (int b){
     else
     return 0;
  } 
-bool checkAndUpdateAlarm();
+bool checkAndUpdateAlarm(){
+     if (time >= alarm) {
+        alarm = 0;
+        alarmHasBeenSet = false;  
+     return true;  
+    } 
+ 
+ else {
+      return false;
+      }
+ 
+ 
 void setAlarm(int t){
     assert(t > time);
     alarmHasBeenSet = true;
