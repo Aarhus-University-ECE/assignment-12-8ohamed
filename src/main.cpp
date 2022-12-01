@@ -23,6 +23,22 @@ int main(int argc, char **argv)
 
     assert(d.getDuration() == 9);
 
+    d.setAlarm(10);
+
+    assert(d.tick() == true); // 10 should fire alarm
+    assert(d.tick() == false); // 11 should NOT alarm
+
+    Duration d2(6);
+
+    d2.setAlarm(10);
+
+    assert(d2.tick(4) == true);
+    assert(d2.tick(2) == false);
+
+
+
+
+
 
 
 
